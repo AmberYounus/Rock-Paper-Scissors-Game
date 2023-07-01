@@ -1,0 +1,51 @@
+body {
+  font-family: cursive;
+  background-image: linear-gradient(
+    to right,
+    rgba(255, 179, 179, 0),
+    rgb(9, 101, 143)
+  );
+}
+.options {
+  display: flex;
+  width: 50vw;
+  justify-content: space-evenly;
+  margin-top: 2rem;
+}
+.score {
+  color: rgb(253, 212, 10);
+}
+h1 {
+  font-size: 34px;
+  text-decoration-line: underline;
+  color: rgb(0, 101, 104);
+}
+.game {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 100vw;
+  justify-content: center;
+  align-items: center;
+}
+
+.options button {
+  padding: 0.8rem;
+  width: 100px;
+  border-radius: 10px;
+  background: cadetblue;
+  outline: none;
+  color: #fff;
+  border-color: green;
+  border: none;
+  cursor: pointer;
+}
+.results {
+  font-weight: bold;
+  margin-top: 26px;
+  color: rgb(212, 2, 2);
+  font-size: 18px;
+}
+button:hover {
+  background: rgb(49, 221, 227);
+}
